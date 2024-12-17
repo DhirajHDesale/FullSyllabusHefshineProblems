@@ -35,6 +35,6 @@ public class MyClass
 	private static void myCode(HashSet<Integer> set1, HashSet<Integer> set2) 
 	{
 		set1.retainAll(set2);
-		System.out.println(set1);
+		System.out.println("Intersection: "+set1);
 	}
 }
